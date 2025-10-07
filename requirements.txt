@@ -1,0 +1,9 @@
+torch
+torchvision
+Pillow
+pandas
+scikit-learn
+tqdm
+
+# Web Interface
+gradio
