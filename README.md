@@ -399,6 +399,37 @@ To improve the model:
 
 ---
 
+## Dataset
+
+This project uses a plant disease dataset containing images of various plant species and their associated diseases.
+
+### Dataset Structure:
+- **Plants included**: Apple, Cassava, Cherry, Chili, Coffee, and more
+- **Disease types**: Black rot, rust, scab, bacterial blight, mosaic disease, powdery mildew, leaf spot, etc.
+- **Healthy samples**: Includes healthy leaves for comparison
+
+### Citation:
+If you're using the PlantVillage Dataset or similar, please cite:
+
+```bibtex
+@article{hughes2015open,
+  title={An open access repository of images on plant health to enable the development of mobile disease diagnostics},
+  author={Hughes, David P and Salath{\'e}, Marcel},
+  journal={arXiv preprint arXiv:1511.08060},
+  year={2015}
+}
+```
+
+**Dataset Source**: Please specify your dataset source (e.g., Kaggle, PlantVillage, custom collection)
+
+### Data Availability:
+Due to size constraints, the dataset is not included in this repository. To use this code:
+1. Download the dataset from your source
+2. Place it in the `archive/` folder
+3. Organize as: `archive/[class_name]/[images]`
+
+---
+
 ## License
 
 This project uses Meta's DINOv2 model, which is licensed under Apache 2.0.
@@ -408,9 +439,10 @@ This project uses Meta's DINOv2 model, which is licensed under Apache 2.0.
 ## Acknowledgments
 
 - **DINOv2**: Meta AI Research - https://github.com/facebookresearch/dinov2
-- **PlantVillage Dataset**: (if applicable)
-- **PyTorch**: Deep learning framework
-- **Gradio**: Web interface library
+  - Paper: "DINOv2: Learning Robust Visual Features without Supervision" (Oquab et al., 2023)
+- **PlantVillage Dataset**: Hughes & Salathe (2015) - Open access plant disease images
+- **PyTorch**: Deep learning framework - https://pytorch.org
+- **Gradio**: Web interface library - https://gradio.app
 
 ---
 
