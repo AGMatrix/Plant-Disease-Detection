@@ -432,7 +432,19 @@ Due to size constraints, the dataset is not included in this repository. To use 
 
 ## License
 
-This project uses Meta's DINOv2 model, which is licensed under Apache 2.0.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### What this means:
+- ✅ **Attribution**: You must give appropriate credit
+- ✅ **ShareAlike**: Adaptations must use the same license
+- ❌ **NonCommercial**: No commercial use without permission
+
+**Full License**: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+### Third-Party Licenses:
+- **DINOv2 Model**: Apache 2.0 (Meta AI Research)
 
 ---
 
