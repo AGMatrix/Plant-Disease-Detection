@@ -408,6 +408,18 @@ This project uses a plant disease dataset containing images of various plant spe
 - **Disease types**: Black rot, rust, scab, bacterial blight, mosaic disease, powdery mildew, leaf spot, etc.
 - **Healthy samples**: Includes healthy leaves for comparison
 
+### Dataset License:
+The dataset used in this project is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+[![Dataset License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Dataset%20License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**License Terms**:
+- ✅ Attribution required
+- ✅ ShareAlike - derivatives under same license
+- ❌ NonCommercial use only
+
+**Full License**: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 ### Citation:
 If you're using the PlantVillage Dataset or similar, please cite:
 
@@ -432,19 +444,16 @@ Due to size constraints, the dataset is not included in this repository. To use 
 
 ## License
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+### Code License
+This project code is licensed under the **MIT License** (see [LICENSE](LICENSE) file).
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+### Dataset License
+The dataset is licensed under **CC BY-NC-SA 4.0** - see [Dataset section](#dataset) above.
 
-### What this means:
-- ✅ **Attribution**: You must give appropriate credit
-- ✅ **ShareAlike**: Adaptations must use the same license
-- ❌ **NonCommercial**: No commercial use without permission
-
-**Full License**: https://creativecommons.org/licenses/by-nc-sa/4.0/
-
-### Third-Party Licenses:
-- **DINOv2 Model**: Apache 2.0 (Meta AI Research)
+### Third-Party Components:
+- **DINOv2 Model**: Apache License 2.0 (Meta AI Research)
+- **PyTorch**: BSD-style License
+- **Gradio**: Apache License 2.0
 
 ---
 
