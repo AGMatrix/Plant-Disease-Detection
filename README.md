@@ -457,11 +457,40 @@ The dataset is licensed under **CC BY-NC-SA 4.0** - see [Dataset section](#datas
 
 ---
 
+## References
+
+### Research Papers
+
+**DINOv2** - Foundation model used for feature extraction:
+```bibtex
+@article{oquab2023dinov2,
+  title={DINOv2: Learning Robust Visual Features without Supervision},
+  author={Oquab, Maxime and Darcet, Timothée and Moutakanni, Théo and Vo, Huy V. and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and Assran, Mahmoud and Ballas, Nicolas and Galuba, Wojciech and Howes, Russell and Huang, Po-Yao and Li, Shang-Wen and Misra, Ishan and Rabbat, Michael and Sharma, Vasu and Synnaeve, Gabriel and Xu, Hu and Jegou, Hervé and Mairal, Julien and Labatut, Patrick and Joulin, Armand and Bojanowski, Piotr},
+  journal={Transactions on Machine Learning Research},
+  year={2024},
+  url={https://openreview.net/forum?id=a68SUt6zFt}
+}
+```
+- **OpenReview**: https://openreview.net/forum?id=a68SUt6zFt
+- **GitHub**: https://github.com/facebookresearch/dinov2
+- **Affiliation**: Meta AI Research & Inria
+
+**PlantVillage Dataset**:
+```bibtex
+@article{hughes2015open,
+  title={An open access repository of images on plant health to enable the development of mobile disease diagnostics},
+  author={Hughes, David P and Salathé, Marcel},
+  journal={arXiv preprint arXiv:1511.08060},
+  year={2015}
+}
+```
+
+---
+
 ## Acknowledgments
 
-- **DINOv2**: Meta AI Research - https://github.com/facebookresearch/dinov2
-  - Paper: "DINOv2: Learning Robust Visual Features without Supervision" (Oquab et al., 2023)
-- **PlantVillage Dataset**: Hughes & Salathe (2015) - Open access plant disease images
+- **DINOv2**: Meta AI Research & Inria for the pre-trained vision transformer model
+- **PlantVillage**: Hughes & Salathe for open access plant disease images
 - **PyTorch**: Deep learning framework - https://pytorch.org
 - **Gradio**: Web interface library - https://gradio.app
 
