@@ -196,7 +196,7 @@ for result in results:
 
 ## Current Limitations
 
-### Why Model May Fail on New Black Rot Images:
+### Why Model May Fail on New Images:
 
 1. **Overfitting to Training Data**
    - Model memorized specific training images rather than learning general patterns
@@ -403,7 +403,15 @@ To improve the model:
 
 This project uses a plant disease dataset containing images of various plant species and their associated diseases.
 
-### Dataset Structure:
+### Dataset Details:
+**Source**: [Plant Disease Classification Merged Dataset](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset) by Aline Dobrovsky
+
+This merged dataset combines 14 different plant disease datasets for comprehensive classification.
+
+**Dataset Statistics**:
+- **88 disease classes** across multiple plant species
+- **76,000+ images** from laboratory and field settings
+- **Size**: 17.6GB
 - **Plants included**: Apple, Cassava, Cherry, Chili, Coffee, and more
 - **Disease types**: Black rot, rust, scab, bacterial blight, mosaic disease, powdery mildew, leaf spot, etc.
 - **Healthy samples**: Includes healthy leaves for comparison
@@ -421,24 +429,31 @@ The dataset used in this project is licensed under **Creative Commons Attributio
 **Full License**: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ### Citation:
-If you're using the PlantVillage Dataset or similar, please cite:
+If using this dataset, please cite:
 
 ```bibtex
-@article{hughes2015open,
-  title={An open access repository of images on plant health to enable the development of mobile disease diagnostics},
-  author={Hughes, David P and Salath{\'e}, Marcel},
-  journal={arXiv preprint arXiv:1511.08060},
-  year={2015}
+@misc{dobrovsky2024plant,
+  title={Plant Disease Classification Merged Dataset},
+  author={Dobrovsky, Aline},
+  year={2024},
+  publisher={Kaggle},
+  howpublished={https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset}
 }
 ```
 
-**Dataset Source**: Please specify your dataset source (e.g., Kaggle, PlantVillage, custom collection)
+**Note**: This merged dataset includes images from 14 different sources. The dataset creator compiled:
+- PlantVillage dataset (Hughes & Salathe, 2015)
+- Various Kaggle datasets (F. Nahian, D. Singh, and others)
+- Additional academic sources
 
 ### Data Availability:
-Due to size constraints, the dataset is not included in this repository. To use this code:
-1. Download the dataset from your source
-2. Place it in the `archive/` folder
-3. Organize as: `archive/[class_name]/[images]`
+Due to size constraints (17.6GB), the dataset is not included in this repository.
+
+**To use this code**:
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset)
+2. Extract and place it in the `archive/` folder
+3. Ensure structure: `archive/[class_name]/[images]`
+4. Run `prepare_data.py` to create train/val/test splits
 
 ---
 
