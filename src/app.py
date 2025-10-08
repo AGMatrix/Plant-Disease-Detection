@@ -58,7 +58,6 @@ def create_interface():
         - Avoid blurry or very dark images
         """,
         theme="soft",
-        allow_flagging="never"
     )
     
     return interface
@@ -67,4 +66,4 @@ def create_interface():
 if __name__ == "__main__":
     print("Launching Plant Disease Detection Interface...")
     interface = create_interface()
-    interface.launch(share=True, server_port=7860)
+    interface.launch()
