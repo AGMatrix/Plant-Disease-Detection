@@ -534,3 +534,4 @@ The dataset is licensed under **CC BY-NC-SA 4.0** - see [Dataset section](#datas
 ## Contact & Support
 
 For questions or issues, please open an issue in the GitHub repository.
+# Plant-Disease-Detection
